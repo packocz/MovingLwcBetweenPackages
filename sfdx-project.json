@@ -1,0 +1,13 @@
+{
+	"packageDirectories": [
+		{
+			"path": "src-temp",
+			"default": true
+		}
+	],
+	"name": "sfxx",
+	"namespace": "",
+	"sfdcLoginUrl": "https://login.salesforce.com",
+	"sourceApiVersion": "60.0",
+	"packageAliases": {}
+}
