@@ -3,11 +3,38 @@
 		{
 			"path": "src-temp",
 			"default": true
+		},
+		{
+			"path": "src/level-1",
+			"package": "MovingLwcLevel1",
+			"versionName": "ver 0.1",
+			"versionNumber": "0.1.0.NEXT",
+			"default": false,
+			"versionDescription": ""
+		},
+		{
+			"path": "src/level-2",
+			"package": "MovingLwcLevel2",
+			"versionName": "ver 0.1",
+			"versionNumber": "0.1.0.NEXT",
+			"default": false,
+			"versionDescription": "",
+			"dependencies": [
+				{
+					"package": "MovingLwcLevel1",
+					"versionNumber": "0.1.0.LATEST"
+				}
+			]
 		}
 	],
-	"name": "sfxx",
-	"namespace": "",
+	"name": "MovingLwc",
+	"namespace": "packocz",
 	"sfdcLoginUrl": "https://login.salesforce.com",
 	"sourceApiVersion": "60.0",
-	"packageAliases": {}
+	"packageAliases": {
+		"MovingLwcLevel1": "0Ho080000008OLsCAM",
+		"MovingLwcLevel2": "0Ho080000008OLxCAM",
+		"MovingLwcLevel1@0.1.0-1": "04t08000000NvytAAC",
+		"MovingLwcLevel2@0.1.0-1": "04t08000000NvyyAAC"
+	}
 }
