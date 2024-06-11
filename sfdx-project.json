@@ -8,7 +8,7 @@
 			"path": "src/level-1",
 			"package": "MovingLwcLevel1",
 			"versionName": "ver 0.2",
-			"versionNumber": "0.2.0.NEXT",
+			"versionNumber": "0.2.1.NEXT",
 			"default": false,
 			"versionDescription": ""
 		},
@@ -37,6 +37,7 @@
 		"MovingLwcLevel1@0.1.0-1": "04t08000000NvytAAC",
 		"MovingLwcLevel2@0.1.0-1": "04t08000000NvyyAAC",
 		"MovingLwcLevel1@0.2.0-1": "04t08000000Nvz3AAC",
+		"MovingLwcLevel1@0.2.1-1": "04t08000000Nvz8AAC",
 		"MovingLwcLevel2@0.2.0-1": "04t08000000NvzDAAS"
 	}
 }
